@@ -1,0 +1,139 @@
+.zaglavlje {
+    background: url(../img/PBhead.png)no-repeat center center;
+    background-size: cover;
+    border-bottom: 5px solid #aaa;
+}
+
+.zaglavlje-pozadina {
+    background: rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.zaglavlje-navigacija {
+    /*background:rgba(255, 255, 255, .8);*/
+    background:linear-gradient(white, rgb(14, 159, 196));
+    font-family: 'VT323', monospace, Geneva, Tahoma, sans-serif;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    /*position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;*/
+    }
+
+.zaglavlje-navigacija a {
+    margin: 0 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.zaglavlje-navigacija a:hover {
+    color: #555;
+}
+
+.zaglavlje-naslov {
+        font-family: 'VT323', monospace;
+        /*font-size: 24px;*/
+        text-shadow: 5px 10px hsl(0, 0%, 14%);
+        padding: 150px 0;
+        text-align: center;
+}
+
+.zaglavlje-naslov h1 {
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.zaglavlje-naslov h1::before {
+    content: '';
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    width: 30px;
+    margin: auto;
+    background: white;
+    box-shadow: 5px 10px hsl(0, 0%, 14%);
+}
+
+.zaglavlje-naslov h1::after {
+    content: '';
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 1;
+    height: 5px;
+    width: 30px;
+    margin: auto;
+    background: white;
+    box-shadow: 5px 10px hsl(0, 0%, 14%);
+}
+
+.zaglavlje-naslov p {
+    color:white;
+    font-size: 1.5em;
+}
+
+footer {
+    clear: both;
+    background: #123;
+    text-align: center;
+    color: rgba(255, 255, 255, .2);
+    padding: 10px;
+}
+  
+#content-naslov {
+    text-align: center;
+}
+  
+h4,
+h5 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#content > div {
+    width: 45.5%;
+}
+  
+#content > div:nth-of-type(2n+1) {
+    float: left;
+    margin: 0 1.5% 0 3%;
+    text-align: justify;
+}
+  
+#content > div:nth-of-type(2n) {
+    float: right;
+    margin: 0 3% 0 1.5%;
+    text-align: justify;
+}
+
+#content2 {
+    clear: both;
+}
+
+.Pero-pozdravlja::first-letter {
+    color: magenta;
+}
+
+footer {
+    background: #123;
+    text-align: center;
+    color: rgba(255, 255, 255, .2);
+    padding: 10px;
+}
+
+.lista1 {
+    list-style-image: url(../img/bullet.png);
+}
+
+.lista4 {
+    list-style: square;
+}
